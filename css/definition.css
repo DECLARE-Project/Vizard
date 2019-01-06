@@ -1,0 +1,124 @@
+.main-container
+{
+    position:  fixed;
+    top:       0;
+    left:      0;
+    margin:    50px 100px 100px 100px;
+    min-width: 1000px;
+    width:     calc(100% - 200px);
+}
+
+.main-container-decoration
+{
+    position:     fixed;
+    top:          0;
+    left:         0;
+    margin:       0 198px 0 198px;
+    min-width:    804px;
+    width:        calc(100% - 396px);
+    height:       100%;
+    border-left:  2px solid #999999;
+    border-right: 2px solid #999999;
+}
+
+.carousel
+{
+    height: calc(100vh - 150px);
+    width:  100%;
+}
+
+.carousel-inner
+{
+    margin:        0 100px 0 100px;
+    height:        100%;
+    width:         calc(100% - 200px);
+    overflow-y:    auto;
+    border-top:    2px solid #999999;
+    border-bottom: 2px solid #999999;
+}
+
+.carousel .carousel-item
+{
+    padding: 2em;
+}
+
+.nav-item
+{
+    padding: 10px;
+}
+
+.carousel-indicators
+{
+    padding-top: 20px;
+    margin:      0 100px -60px 100px;
+}
+
+.carousel-indicators li
+{
+    height:        auto;
+    width:         auto;
+    padding:       1px 5px 1px 5px;
+    cursor:        pointer;
+    background:    #FFFFFF;
+    font-size:     12px;
+    font-weight:   bold;
+    border-radius: 2px;
+    text-indent:   0;
+    transition:    500ms;
+    border:        1px solid #999999;
+}
+
+.carousel-indicators li:hover
+{
+    background-color: #0099FF;
+}
+
+.carousel-indicators .active
+{
+    color:            white;
+    background-color: #0099FF;
+    border:           1px solid #333333;
+}
+
+.carousel-control-icon
+{
+    width: 100px;
+}
+
+.carousel-control-prev-icon
+{
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2309F' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-disabled
+{
+    background: transparent;
+}
+
+.carousel-control-next-icon
+{
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2309F' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/*
+ *  Important stuff
+ */
+
+#query
+{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#filter_parameters, #query-configuration, #analysis-method, #analysis-configuration, #parameter-selection,
+#tab-Limits, #tab-Metrics, #tab-Conditions, #tab-Services, #tab-Timestamps, #tab-Status,
+.jmeter-configuration, .locust-configuration
+{
+    display: none;
+}
+
+.query-wrapper
+{
+    text-align: center;
+}

@@ -1,0 +1,262 @@
+body
+{
+    margin:  0;
+    padding: 0;
+}
+
+h1, h2, h3, h4
+{
+    font-weight: bold;
+}
+
+select, input
+{
+    min-width:    200px;
+    padding-left: 10px;
+}
+
+#analysis-configuration select, #analysis-configuration input
+{
+    max-width: 200px;
+}
+
+.expert
+{
+    display: none;
+}
+
+.btn-file
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file]
+{
+    position:   absolute;
+    top:        0;
+    right:      0;
+    min-width:  100%;
+    min-height: 100%;
+    font-size:  100px;
+    text-align: right;
+    filter:     alpha(opacity=0);
+    opacity:    0;
+    background: red;
+    cursor:     inherit;
+    display:    block;
+}
+
+.filler
+{
+    display: block;
+    height:  50px;
+    width:   100%;
+}
+
+.p-section
+{
+    padding:       20px 0 20px 50px;
+    margin-bottom: 50px;
+}
+
+.p-right
+{
+    padding-right: 50px;
+}
+
+.form-control
+{
+    width:   auto;
+    display: inline-block;
+}
+
+#query
+{
+    font-size:   40px;
+    font-weight: bold;
+}
+
+#query .badge-target
+{
+    max-height:  30px;
+    line-height: 16px;
+    font-size:   16px;
+    padding:     1px;
+}
+
+#query .badge-target .badge
+{
+    max-height:  22px;
+    line-height: 16px;
+    font-size:   16px;
+}
+
+.badge
+{
+    margin:         0 3px 0 3px;
+    border-radius:  5px;
+    font-size:      14px;
+    line-height:    14px;
+    text-align:     center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.badge-target
+{
+    width:          auto;
+    height:         auto;
+    padding:        0 4px 0 4px;
+    min-width:      30px;
+    min-height:     28px;
+    border-radius:  5px;
+    text-align:     center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.badge-pool
+{
+    margin: 5px;
+    width:          auto;
+    height:         auto;
+    overflow:       auto;
+    max-width:      300px;
+    min-height:     30px;
+    max-height:     200px;
+    text-align:     center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#metric-badge-pool
+{
+    border:         2px dashed #009900;
+    background:     rgba(0, 153, 0, 0.3);
+}
+
+.metric-target
+{
+    border:     2px dashed #009900;
+    background: rgba(0, 153, 0, 0.3);
+
+}
+
+.metric-badge
+{
+    color:      white;
+    background: #009900;
+}
+
+#limit-badge-pool
+{
+    border:         2px dashed #999999;
+    background:     rgba(153, 153, 153, 0.3);
+}
+
+.limit-target
+{
+    border:     2px dashed #999999;
+    background: rgba(153, 153, 153, 0.3);
+}
+
+.limit-badge
+{
+    background: #999999;
+}
+
+#unit-badge-pool
+{
+    border:         2px dashed #FF3300;
+    background:     rgba(255, 51, 0, 0.3);
+}
+
+.unit-target
+{
+    border:     2px dashed #FF3300;
+    background: rgba(255, 51, 0, 0.3);
+}
+
+.unit-badge
+{
+    background: #FF3300;
+}
+
+#service-badge-pool
+{
+    border:         2px dashed #0055FF;
+    background:     rgba(0, 85, 255, 0.3);
+}
+
+.service-target
+{
+    border:     2px dashed #0055FF;
+    background: rgba(0, 85, 255, 0.3);
+}
+
+.service-badge
+{
+    color:      white;
+    background: #0055FF;
+}
+
+/*#time-badge-pool*/
+/*{*/
+/*border: 2px dashed #FA0;*/
+/*background: rgba(255, 170, 0, 0.3);*/
+/*}*/
+
+/*.time-target*/
+/*{*/
+/*border: 2px dashed #FA0;*/
+/*background: rgba(255, 170, 0, 0.3);*/
+/*}*/
+
+/*.time-badge*/
+/*{*/
+/*background: #FA0;*/
+/*}*/
+
+#condition-badge-pool
+{
+    border:         2px dashed #AA00AA;
+    background:     rgba(170, 0, 170, 0.3);
+}
+
+.condition-target
+{
+    border:     2px dashed #AA00AA;
+    background: rgba(170, 0, 170, 0.3);
+}
+
+.condition-badge
+{
+    color:      white;
+    background: #AA00AA;
+}
+
+#value-badge-pool
+{
+    border:     2px dashed #663300;
+    background: rgba(102, 51, 0, 0.3);
+}
+
+.value-target
+{
+    border:     2px dashed #663300;
+    background: rgba(102, 51, 0, 0.3);
+}
+
+.value-badge
+{
+    color:      white;
+    background: #663300;
+}
+
+.badge-pool,
+#limit-badge-pool, #metric-badge-pool, #service-badge-pool, #condition-badge-pool, #value-badge-pool, #unit-badge-pool
+{
+    visibility: hidden;
+    display: none;
+}
