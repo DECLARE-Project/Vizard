@@ -102,7 +102,7 @@ function saveModel()
         let new_url = protocol + "//" + host + "/" + path + url;
         window.history.pushState({path: new_url}, '', new_url);
     }
-    $("#redirect").attr("href", "UC_Report.html?concern=" + JSON.stringify(USER_CONCERN));
+    $("#redirect").attr("href", "Report.html?concern=" + JSON.stringify(USER_CONCERN));
 }
 
 function loadModel()
@@ -158,7 +158,7 @@ function loadModel()
      */
     el_user_concern.val(JSON.stringify(USER_CONCERN));
 
-    $("#redirect").attr("href", "UC_Report.html?concern=" + JSON.stringify(USER_CONCERN));
+    $("#redirect").attr("href", "Report.html?concern=" + JSON.stringify(USER_CONCERN));
 }
 
 function updateUI()

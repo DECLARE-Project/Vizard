@@ -185,5 +185,5 @@ function drop(ev)
     query.el.trigger("queryChanged");
 
     updateURL();
-    $("#redirect").attr("href", "UC_Report.html?concern=" + JSON.stringify(USER_CONCERN));
+    $("#redirect").attr("href", "Report.html?concern=" + JSON.stringify(USER_CONCERN));
 }
