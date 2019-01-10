@@ -2,6 +2,11 @@
 
 An automated guide for the configuration and execution of performance analysis.
 
+Running examples can be found on the following pages:
+- Specifying performance concerns and generating experiments for JMeter and Locust ([link](http://declare-project.github.io/Vizard/Definition))
+- Report generation (and concern refinement, if possible) ([link](http://declare-project.github.io/Vizard/Report))
+
+
 ### What does this tool do?
 
 The idea behind Vizard is to simplify the configuration of analysis tools and the extraction of these results.
