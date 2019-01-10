@@ -43,7 +43,24 @@ Vizard currently supports the following analysis tools:
 
 ### Screenshots
 
+<p align="center">
+
+**Welcome Page**
+
 <img alt="User Concern Definition Welcome" src="https://github.com/DECLARE-Project/Vizard/blob/master/docs/images/def_1.png" width="400px"/>
+
+
+**Query Definition**
+
 <img alt="User Concern Definition Query" src="https://github.com/DECLARE-Project/Vizard/blob/master/docs/images/def_2.png" width="400px"/>
+
+
+**Report Summary**
+
 <img alt="User Concern Report Overview" src="https://github.com/DECLARE-Project/Vizard/blob/master/docs/images/rep_1.png" width="400px"/>
+
+
+**Report Section with Graph**
+
 <img alt="User Concern Report Graph" src="https://github.com/DECLARE-Project/Vizard/blob/master/docs/images/rep_2.png" width="400px"/>
+</p>
